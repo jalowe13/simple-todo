@@ -1,0 +1,110 @@
+# Google Bard ignore template for Visual Studio Project
+# Ignore the bin and obj folders
+bin/
+obj/
+
+# Ignore the csproj files
+*.csproj
+*.csproj.user
+
+# Ignore the .suo files
+*.suo
+
+# Ignore the .user files
+*.user
+
+# Ignore the .cache files
+*.cache
+
+# Ignore the .pidb files
+*.pidb
+
+# Ignore the .ncb files
+*.ncb
+
+# Ignore the .aps files
+*.aps
+
+# Ignore the .sdf files
+*.sdf
+
+# Ignore the .cache2 files
+*.cache2
+
+# Ignore the .opendb files
+*.opendb
+
+# Ignore the .opensdf files
+*.opensdf
+
+# Ignore the .pdb files
+*.pdb
+
+# Ignore the .ilk files
+*.ilk
+
+# Ignore the .meta files
+*.meta
+
+# Ignore the .obj.local files
+*.obj.local
+
+# Ignore the .pch files
+*.pch
+
+# Ignore the .psess files
+*.psess
+
+# Ignore the .svclog files
+*.svclog
+
+# Ignore the .vspscc files
+*.vspscc
+
+# Ignore the .vssscc files
+*.vssscc
+
+# Ignore the .vssscc.scc files
+*.vssscc.scc
+
+# Ignore the .pidb.* files
+*.pidb.*
+
+# Ignore the .cache.* files
+*.cache.*
+
+# Ignore the .opendb.* files
+*.opendb.*
+
+# Ignore the .opensdf.* files
+*.opensdf.*
+
+# Ignore the .pdb.* files
+*.pdb.*
+
+# Ignore the .ilk.* files
+*.ilk.*
+
+# Ignore the .meta.* files
+*.meta.*
+
+# Ignore the .obj.local.* files
+*.obj.local.*
+
+# Ignore the .pch.* files
+*.pch.*
+
+# Ignore the .psess.* files
+*.psess.*
+
+# Ignore the .svclog.* files
+*.svclog.*
+
+# Ignore the .vspscc.* files
+*.vspscc.*
+
+# Ignore the .vssscc.* files
+*.vssscc.*
+
+# Ignore the .vssscc.scc.* files
+*.vssscc.scc.*
