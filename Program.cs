@@ -13,7 +13,7 @@ static class Program
     {
         // Versioning
         int major_version = 0;
-        int minor_version = 1;
+        int minor_version = 2;
         int patch_version = 0;
 
         String version = major_version.ToString() + "." + minor_version.ToString();

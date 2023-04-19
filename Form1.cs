@@ -1,7 +1,6 @@
 // Jacob Lowe
 namespace todolist;
 
-
 public partial class Form1 : Form
 {
     int task_y = 150;       // Current y
@@ -9,7 +8,6 @@ public partial class Form1 : Form
     public Form1()
     {
         InitializeComponent();
-
 
         // Header Textbox
         RichTextBox tb_entry = new RichTextBox();
@@ -58,7 +56,7 @@ public partial class Form1 : Form
                 RichTextBox new_task = new RichTextBox();
                 new_task.Location = new Point(10,task_y);
                 new_task.Size = new Size(700,20);
-                this.Controls.Add(new_task);
+                
                 // Complete and clear buttons
                 Button complete = new Button();
                 Button clear = new Button();
@@ -69,25 +67,17 @@ public partial class Form1 : Form
                 complete.Text = "O";
                 clear.Text = "X";
 
-                complete.Click += new EventHandler(complete_Click);
-                clear.Click += new EventHandler(clear_Click);
+                ListTask task = new ListTask(complete, clear, new_task, task_y);
+
+                
                 this.Controls.Add(complete);
                 this.Controls.Add(clear);
+                this.Controls.Add(new_task);
             }
         }
     }
 
-    // Remove textbox on call
-    private void complete_Click(object? sender, EventArgs? e)
-    {
-        MessageBox.Show("You clicked the complete button.");
-    }
 
-    // Clear textbox on call
-    private void clear_Click(object? sender, EventArgs? e)
-    {
-        MessageBox.Show("You clicked the clear button.");
-    }
 
 
     
